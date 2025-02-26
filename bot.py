@@ -9,7 +9,7 @@ from telebot import types
 TOKEN = "8134292143:AAHXhREWyjJFwryTDP5FGNRy21snvo0OO0E"
 API_KEY = "82958e4c34effa73ab76ecd5810a66d1"
 PARTNER_ID = "606741"
-AIRPORTS_CSV = r"C:\\Users\\Влад и Юля\\Desktop\\Новая папка\\Lovi_belet\\airports_list.csv"
+AIRPORTS_CSV = 'airports_list.csv' 
 
 bot = telebot.TeleBot(TOKEN)
 scheduler = BackgroundScheduler()
